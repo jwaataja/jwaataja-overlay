@@ -1,4 +1,4 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND="
 	dev-libs/glib:2
 	x11-libs/gtk+:3
-	x11-libs/vte
+	x11-libs/vte:2.91=
 "
 DEPEND="${RDEPEND}"
 BDEPEND=""
